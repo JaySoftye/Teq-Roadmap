@@ -57,29 +57,29 @@ $(document).ready(function(){
       }
     });
 
-    var qThree = $(".quarter-three");
-    var qThreepos = qThree.position();
-      $(window).scroll(function() {
-        var windowpos = $(window).scrollTop();
-        if (windowpos >= qThreepos.top & windowpos <= $(document).height() * 0.65 & windowpos >= $(document).height() * 0.45) {
-          qThree.addClass("fixed");
-          qThree.css({'transform': 'translateY(' + windowpos * +.15 + 'px) scale(' +  windowpos / 6000 + ')'});
-        } else {
-          qThree.removeClass("fixed");
-        }
-      });
+  var qThree = $(".quarter-three");
+  var qThreepos = qThree.position();
+    $(window).scroll(function() {
+      var windowpos = $(window).scrollTop();
+      if (windowpos >= qThreepos.top & windowpos <= $(document).height() * 0.65 & windowpos >= $(document).height() * 0.45) {
+        qThree.addClass("fixed");
+        qThree.css({'transform': 'translateY(' + windowpos * +.15 + 'px) scale(' +  windowpos / 6000 + ')'});
+      } else {
+        qThree.removeClass("fixed");
+      }
+    });
 
-      var qFour = $(".quarter-four");
-      var qFourpos = qFour.position();
-        $(window).scroll(function() {
-          var windowpos = $(window).scrollTop();
-          if (windowpos >= qFourpos.top & windowpos > $(document).height() * 0.60) {
-            qFour.addClass("fixed");
-            qFour.css({'transform': 'translateY(' + windowpos * +.075 + 'px) scale(' +  windowpos / 12000 + ')'});
-          } else {
-            qFour.removeClass("fixed");
-          }
-        });
+  var qFour = $(".quarter-four");
+  var qFourpos = qFour.position();
+    $(window).scroll(function() {
+      var windowpos = $(window).scrollTop();
+      if (windowpos >= qFourpos.top & windowpos > $(document).height() * 0.60) {
+        qFour.addClass("fixed");
+        qFour.css({'transform': 'translateY(' + windowpos * +.075 + 'px) scale(' +  windowpos / 12000 + ')'});
+      } else {
+        qFour.removeClass("fixed");
+      }
+    });
 
   var elementsFirst = $(".dashed-roadline"), quantityFirst = elementsFirst.length;
   $(window).on("scroll", function () {
@@ -93,9 +93,27 @@ $(document).ready(function(){
           'transform': 'translate3d(0,' + scrolled * -0.15 + 'px, 0)'
         });
       }
-
     });
   });
+
+  $(window).on('scroll', function() {
+    $(".animation-sky-marker").each(function() {
+      if (isScrolledIntoView($(".animation-sky-marker"))) {
+        $(".animation-sky-container").addClass("animation-sky");
+      } else {
+        $(".animation-sky-container").removeClass("animation-sky");
+      }
+    });
+  });
+
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+
+      return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
 
 
 });

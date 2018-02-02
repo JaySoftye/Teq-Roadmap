@@ -1,13 +1,16 @@
 <div id="legend">
   <ul>
-    <li><a href="#first-quarter-marker">Q1</a></li>
-    <li><a href="#second-quarter-marker">Q2</a></li>
-    <li><a href="#third-quarter-marker">Q3</a></li>
-    <li><a href="#fourth-quarter-marker">Q4</a></li>
+    <li><a href="#first-quarter-marker" alt="Online PD Features"><span>Online PD Features</span></a></li>
+    <li><a href="#second-quarter-marker" alt=""><span>Online PD Courses</span></a></li>
+    <li><a href="#third-quarter-marker" alt="Product Updates"><span>Product Updates</span></a></li>
+    <li><a href="#fourth-quarter-marker" alt="Consulting Services"><span>Consulting Services</span></a></li>
   </ul>
 </div>
 <div id="roadway">
   <img src="public/images/teq-roadmap-roadway.svg" />
+</div>
+<div id="roadwaycover">
+  <img src="public/images/teq-roadmap-roadway-cover.svg" />
 </div>
 <div id="mountain">
   <img src="public/images/teq-roadmap-mountain.svg" />
@@ -29,8 +32,8 @@
       </div>
       <div class="col-sm">
         <div class="year-quarter first-quarter">
-          <h4><strong>2018 First Quarter</strong></h4>
-          <h3>January - March</h3>
+          <h4><strong>New</strong></h4>
+          <h3>Online PD Features</h3>
         </div>
       </div>
     </div>
@@ -44,8 +47,8 @@
       </div>
       <div class="col-sm">
         <div class="year-quarter second-quarter">
-          <h4><strong>2018 Second Quarter</strong></h4>
-          <h3>April - June</h3>
+          <h4><strong>New</strong></h4>
+          <h3>Online PD Courses</h3>
         </div>
       </div>
     </div>
@@ -59,8 +62,8 @@
       </div>
       <div class="col-sm">
         <div class="year-quarter third-quarter">
-          <h4><strong>2018 Third Quarter</strong></h4>
-          <h3>July - September</h3>
+          <h4><strong>New</strong></h4>
+          <h3>Product Updates</h3>
         </div>
       </div>
     </div>
@@ -74,8 +77,8 @@
       </div>
       <div class="col-sm">
         <div class="year-quarter fourth-quarter">
-          <h4><strong>2018 Four Quarter</strong></h4>
-          <h3>October - December</h3>
+          <h4><strong>New</strong></h4>
+          <h3>Consulting Services</h3>
         </div>
       </div>
     </div>
@@ -87,10 +90,10 @@
   <section class="full-height container">
     <div class="row main-col">
       <div class="col-md">
-        <div class="white">
-          <h1><img src="public/images/teq-roadmap.svg" alt="Teq's Roadmap" /></h1>
-          <p>We at Teq, support outcomes by evaluating and delivering products and services for the educational environment. Whether you’re a teacher, faculty member, administrator, or parent we are dedicated to provide dynamic professional development and instructional support to you.</p>
-          <p>By dividing our<strong> focus into 5 main sections: Professional Development, Instructional Software, STEM, Sight and Sound, and SD-WAN,</strong> we are better adept to improve the quality of education for all. Below you will find a Corporate Roadmap to the innovations Teq plans to provide to you this year.</p>
+        <div class="white text-center">
+          <h1><img src="public/images/teq-roadmap.svg" alt="Teq" /></h1>
+          <h2>Our Roadmap ahead...</h2>
+          <h6>Daily demands and unexpected challenges make it easy to feel like there is no direction. Below are the newest insights and innovations we plan to meet for our products and services over the next couple of months. Begin by scrolling down.</h6>
           <p><img src="public/images/teq-roadmap-scroll-down.svg" /></p>
           <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
         </div>
@@ -101,63 +104,39 @@
   <section class="full-height container padding-top padding-bottom" id="first-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>First Quarter Plans</h1>
+        <h1>Online PD Features</h1>
       </div>
     </div>
-    <div class="row main-col">
+    <div class="row full-height">
     <div class="col-md">
-      <div class="row align-items-center quarter-cards one">
-        <div class="col-md text-right">
-          <h3><strong>Q1</strong> Online PD Features</h3>
-        </div>
+      <div class="row animation-sky-container">
+        <div></div>
+      </div>
+      <div class="row animation-sky-marker main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <ul>
-            <li>Google SSO</li>
-            <li>Managing your own playlist</li>
-            <li>Hiding categories</li>
-            <li>Adding custom categories</li>
-          </ul>
+          <h3><strong>Q1</strong> Google SSO</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards one">
-        <div class="col-md text-right">
-          <h3><strong>Q1</strong> Online PD Courses</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3><strong>Q1</strong> Managing your own playlist</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards one">
-        <div class="col-md text-right">
-          <h3><strong>Q1</strong> Products</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <ul>
-            <li>Wonder Workshop robots</li>
-            <li>Kinderlab Kibo robot</li>
-            <li>Paragon Furniture</li>
-          </ul>
+          <h3><strong>Q1</strong> Hiding categories</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards one">
-        <div class="col-md text-right">
-          <h3><strong>Q1</strong> Consulting Services</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <ul>
-            <li>IT Survey for Smart Device Deployment</li>
-            <li>NEDM, ELIS, STEM</li>
-            <li>Courses on Organization Design and Improvement Strategies</li>
-          </ul>
+          <h3><strong>Q1</strong> Adding custom categories</h3>
         </div>
       </div>
     </div>
     </div>
     <div class="row main-col">
       <div class="col-md">
-        <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
+        <p><img src="public/images/teq-roadmap-mr-clouds.svg" /></p>
       </div>
     </div>
   </section>
@@ -165,7 +144,7 @@
   <section class="full-height container padding-top padding-bottom" id="second-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>Second Quarter Plans</h1>
+        <h1>Online PD Courses</h1>
       </div>
     </div>
     <div class="row main-col">
@@ -218,7 +197,7 @@
     </div>
     <div class="row main-col">
       <div class="col-md">
-        <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
+        <p><img src="public/images/teq-roadmap-mr-haze.svg" /></p>
       </div>
     </div>
   </section>
@@ -277,7 +256,7 @@
     </div>
     <div class="row main-col">
       <div class="col-md">
-        <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
+        <p><img src="public/images/teq-roadmap-mr-hazey.svg" /></p>
       </div>
     </div>
   </section>
@@ -334,7 +313,7 @@
     </div>
     <div class="row main-col">
       <div class="col-md">
-        <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
+        <p><img src="public/images/teq-roadmap-mr-stars.svg" /></p>
       </div>
     </div>
   </section>

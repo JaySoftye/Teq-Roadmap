@@ -6,6 +6,6 @@
 	.st0{opacity:0.15;fill:#FFEB79;enable-background:new    ;}
 	.st1{fill:#FFEB79;}
 </style>
-<ellipse class="st0" cx="200.005" cy="131.999" rx="67.335" ry="67.335"/>
-<ellipse transform="matrix(0.1602 -0.9871 0.9871 0.1602 37.6793 308.2733)" class="st1" cx="200.008" cy="131.993" rx="56.937" ry="56.938"/>
+<ellipse class="st0" cx="200.005" cy="111.999" rx="79.999" ry="79.999"/>
+<ellipse transform="matrix(0.1583 -0.9874 0.9874 0.1583 57.7719 291.7503)" class="st1" cx="200.012" cy="111.989" rx="67.646" ry="67.648"/>
 </svg>

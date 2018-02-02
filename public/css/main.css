@@ -117,7 +117,7 @@ nav#mainNav {
   width: 100%;
   height: auto;
   position: fixed;
-  z-index: 1070;
+  z-index: 2000;
   display: block;
   border-top: 4px solid #00b4e1;
   background-color: rgba(30, 36, 40, .95);
@@ -273,14 +273,6 @@ footer .hs-form .hs-button {
 
 /*! BACKGROUND IMAGES */
 
-.container .row.main-col {
-  width: 75%;
-  position: relative !important;
-  margin: 0 auto;
-  padding-bottom: 2.5rem;
-  z-index: 1030 !important;
-}
-
 main.main-content {
   padding-top: 12.75rem;
 }
@@ -292,13 +284,13 @@ main.main-content {
   background: linear-gradient(to bottom, #7fa8e0 0%,#00b4e4 33%,#ff8989 66%,#405575 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-div#legend, div#roadway, div#mountain, div#brushes, div#dashed-line {
+div#legend, div#roadway, div#roadwaycover, div#mountain, div#brushes, div#dashed-line {
   width: 100%;
   position: fixed;
   bottom: 0;
 }
 
-div#legend, div#roadway img, div#mountain img, div#brushes img, div#dashed-line svg {
+div#legend, div#roadway img, div#roadwaycover img, div#mountain img, div#brushes img, div#dashed-line svg {
   width: 100%;
 }
 
@@ -308,16 +300,20 @@ div#legend {
   z-index: 1090;
 }
 
+div#roadwaycover {
+  z-index: 1070;
+}
+
 div#roadway {
-  z-index: 1050;
+  z-index: 1040;
 }
 
 div#mountain {
-  z-index: 1020;
+  z-index: 1010;
 }
 
 div#brushes {
-  z-index: 1040;
+  z-index: 1030;
 }
 
 div#clouds {
@@ -353,24 +349,33 @@ div#legend ul {
 }
 
 div#legend ul li {
-  height: 48px;
-  width: 48px;
-  margin-bottom: 15px;
-  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
 }
 
 div#legend ul a {
+  height: 36px;
+  width: 36px;
   display: block;
-  padding: 10px;
   font-weight: bold;
   color: white;
 }
 
+div#legend ul li span {
+  display: none;
+  position: absolute;
+  top: 20%;
+  left: 48px;
+}
+
 div#legend li a:hover, div#legend li a:focus {
-  text-decoration: none;
   -webkit-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
   box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.25);
+}
+
+div#legend li a:hover span, div#legend li a:focus span {
+  display: inline;
 }
 
 div#legend li:nth-child(1) a {
@@ -387,6 +392,13 @@ div#legend li:nth-child(3) a {
 
 div#legend li:nth-child(4) a {
   background-color: rgb(77, 168, 182);
+}
+
+.container .row.main-col {
+  width: 75%;
+  position: relative !important;
+  margin: 0 auto 5% auto;
+  z-index: 1020 !important;
 }
 
 div.quarter-one, div.quarter-two, div.quarter-three, div.quarter-four {
@@ -445,9 +457,10 @@ div.quarter-section div.year-quarter.fourth-quarter {
 }
 
 div.row.quarter-cards {
-  padding: 2rem;
-  margin: 2.5rem;
+  padding: 1rem .75rem;
+  margin: 0 10% 50% 10%;
   background-color: rgba(255, 255, 255, 0.85);
+  text-align: center;
   -webkit-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.75);
   -moz-box-shadow: 0 8px 6px -6px rgba(0,0,0,0.75);
   box-shadow: 0 8px 6px -6px rgba(0,0,0,0.75);
@@ -485,24 +498,64 @@ div.row.quarter-cards.four strong {
   color: rgb(77, 168, 182);
 }
 
+.animation-sky-container {
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  top: 21%;
+  z-index: 2000 !important;
+}
+
+.animation-sky {
+  animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+	0% {
+		right: -300px;
+	}
+	100% {
+		right: 100%;
+	}
+}
+
+.animation-sky-container.animation-sky div {
+  height: inherit;
+  width: inherit;
+  background-image: url('../images/google-sso-animation-icon.svg');
+  background-size: auto 100%;
+  background-position: left top;
+  will-change: background-position;
+	animation-name: background-cycle;
+	animation-duration: 1s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+@keyframes background-cycle {
+	100% {
+		background-position: -3000px 0;
+	}
+}
+
 @media (min-width: 1440px) {
   .hide-large {
     display: none !important;
   }
   div#dashed-line {
-    height: calc(25.5% + 5px);
+    height: calc(30% + 5px);
   }
   div.quarter-one {
-    top: 20.5%;
+    top: calc(20.5vh - 2.5vw);
   }
   div.quarter-two {
-    top: 10.5;
+    top: calc(0vh - 2.5vw);
   }
   div.quarter-three {
-    top: -20.5%;
+    top: calc(-15.5vh - 5vw);
   }
   div.quarter-four {
-    top: -10.5%;
+    top: calc(-5.5vh - 5vw);
   }
 }
 
@@ -511,7 +564,19 @@ div.row.quarter-cards.four strong {
     display: none !important;
   }
   div#dashed-line {
-    height: calc(20.5% + 10px);
+    height: calc(25% + 10px);
+  }
+  div.quarter-one {
+    top: calc(18vh - 2.5vw);
+  }
+  div.quarter-two {
+    top: calc(0vh - 5vw);
+  }
+  div.quarter-three {
+    top: calc(-20vh - 1.5vw);
+  }
+  div.quarter-four {
+    top: calc(-10vh - 1vw);
   }
 }
 
@@ -520,7 +585,19 @@ div.row.quarter-cards.four strong {
     display: none !important;
   }
   div#dashed-line {
-    height: calc(18.5% + 20px);
+    height: calc(20% + 20px);
+  }
+  div.quarter-one {
+    top: calc(25.5vh - 5.5vw);
+  }
+  div.quarter-two {
+    top: calc(0vh - 5vw);
+  }
+  div.quarter-three {
+    top: calc(-20vh - 1.5vw);
+  }
+  div.quarter-four {
+    top: calc(-10vh - 1vw);
   }
 }
 
@@ -529,12 +606,24 @@ div.row.quarter-cards.four strong {
     display: none !important;
   }
   div#dashed-line {
-    height: calc(12.75% + 40px);
+    height: calc(18% + 40px);
+  }
+  div.quarter-one {
+    top: calc(30.5vh - 5.5vw);
+  }
+  div.quarter-two {
+    top: calc(2.5vh - 2.5vw);
+  }
+  div.quarter-three {
+    top: calc(-10vh - 1.5vw);
+  }
+  div.quarter-four {
+    top: calc(1.5vh - 1vw);
   }
 }
 
 @media (max-width: 768px) {
-  .hide-small, div#dashed-line {
+  .hide-small, div#dashed-line, div#legend, div.quarter-one, div.quarter-two, div.quarter-three, div.quarter-four {
     display: none !important;
   }
 }
