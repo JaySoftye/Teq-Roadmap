@@ -1,0 +1,80 @@
+/*!
+ * Teq Roadmap - Animation Frames
+ */
+@charset "UTF-8";
+
+.animation-sky-container, .animation-ground-left-container, .animation-static-right-container {
+  height: 300px;
+  width: 300px;
+  position: fixed;
+  z-index: 2000 !important;
+}
+
+.animation-sky-container {
+  top: 21%;
+}
+
+.animation-sky {
+  animation: fly 5s linear infinite;
+}
+
+@keyframes fly {
+	0% {
+		right: -300px;
+	}
+	100% {
+		right: 100%;
+	}
+}
+
+.animation-ground-left-container {
+  top: 55%;
+}
+
+.animation-left {
+  animation: left-walk 5s linear infinite;
+}
+
+@keyframes left-walk {
+	0% {
+		left: -300px;
+	}
+	100% {
+		left: 100%;
+	}
+}
+
+.animation-static-right-container {
+  top: 55%;
+}
+
+.animation-right {
+  animation: stay-right 5s linear infinite;
+}
+
+@keyframes stay-right {
+	0% {
+		right: 7.5%;
+	}
+	100% {
+		right: 7.5%;
+	}
+}
+
+.animation-sky-container.animation-sky div, .animation-ground-left-container.animation-left div, .animation-static-right-container.animation-right div {
+  height: inherit;
+  width: inherit;
+  background-size: auto 100%;
+  background-position: left top;
+  will-change: background-position;
+	animation-name: background-cycle;
+	animation-duration: 1s;
+	animation-timing-function: steps(10);
+	animation-iteration-count: infinite;
+}
+
+@keyframes background-cycle {
+	100% {
+		background-position: -3000px 0;
+	}
+}

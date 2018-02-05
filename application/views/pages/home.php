@@ -104,32 +104,32 @@
   <section class="full-height container padding-top padding-bottom" id="first-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>Online PD Features</h1>
+        <h1><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="OnlinePD Features" /></h1>
       </div>
     </div>
     <div class="row full-height">
     <div class="col-md">
-      <div class="row animation-sky-container">
+      <div class="row animation-sky-container" id="google-sso-animation-icon">
         <div></div>
       </div>
       <div class="row animation-sky-marker main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3><strong>Q1</strong> Google SSO</h3>
+          <h3><strong>Google, Clever, and Classlink</strong> single sign-on option</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3><strong>Q1</strong> Managing your own playlist</h3>
+          <h3>Managing your own <strong>playlist</strong></h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3><strong>Q1</strong> Hiding categories</h3>
+          <h3>Hiding categories</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3><strong>Q1</strong> Adding custom categories</h3>
+          <h3>Adding custom categories</h3>
         </div>
       </div>
     </div>
@@ -144,53 +144,41 @@
   <section class="full-height container padding-top padding-bottom" id="second-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>Online PD Courses</h1>
+        <h1><img src="public/images/opd_course_updates.svg" alt="OnlinePD Courses" /></h1>
       </div>
     </div>
-    <div class="row main-col">
+    <div class="row full-height">
     <div class="col-md">
-      <div class="row align-items-center quarter-cards two">
-        <div class="col-md text-right">
-          <h3><strong>Q2</strong> Online PD Features</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <ul>
-            <li>Advanced Analytics</li>
-            <li>User Management</li>
-          </ul>
+          <h3>Effective Instructional <strong>Leadership and Supervision</strong></h3>
+          <h6>Leadership Practices</h6>
+          <h6>Organizational Improvement Strategies</h6>
+          <h6>Performance Improvement Strategies</h6>
+          <h6>College and Career Readiness</h6>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards two">
-        <div class="col-md text-right">
-          <h3><strong>Q2</strong> Online PD Courses</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3>Courses for <strong>Parents</strong></h3>
+          <h6>How to spot "fake news"</h6>
+          <h6>Warning your children against plagiarism</h6>
+          <h6>Monitoring social media</h6>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards two">
-        <div class="col-md text-right">
-          <h3><strong>Q2</strong> Products</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <ul>
-            <li>Smith Systems Furniture</li>
-            <li>Lifeliqe AR/VR</li>
-          </ul>
+          <h3><strong>On-going Updates</strong> to All Certification Courses</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards two">
-        <div class="col-md text-right">
-          <h3><strong>Q2</strong> Consulting Services</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <ul>
-            <li>Part II of Effective Instricutional Leadership Videos</li>
-            <li>Courses on Preparing Students for College and Career Readiness</li>
-            <li>Courses on District and School Performance Improvement Strategies</li>
-          </ul>
+          <h3>English Language Learners(ELL/ESL)</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3>Special Education</h3>
         </div>
       </div>
     </div>
@@ -205,51 +193,45 @@
   <section class="full-height container padding-top padding-bottom" id="third-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>Third Quarter Plans</h1>
+        <h1><img src="public/images/teq-product-updates.svg" alt="Teq Product Updates" /></h1>
       </div>
     </div>
-    <div class="row main-col">
+    <div class="row full-height">
     <div class="col-md">
-      <div class="row align-items-center quarter-cards three">
-        <div class="col-md text-right">
-          <h3><strong>Q3</strong> Online PD Features</h3>
-        </div>
+      <div class="row animation-ground-left-container" id="audio-enhancement-qball">
+        <div></div>
+      </div>
+      <div class="row main-col animation-ground-left-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <ul>
-            <li>Individual Accounts</li>
-            <li>3rd Party Videos</li>
-          </ul>
+          <h3>Audio Enhancement <strong>Qball</strong></h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards three">
-        <div class="col-md text-right">
-          <h3><strong>Q3</strong> Online PD Courses</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards three">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3>Audio Enhancement <strong>XD Solo Speaker</strong></h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards three">
-        <div class="col-md text-right">
-          <h3><strong>Q3</strong> Products</h3>
-        </div>
-        <div class="col-md">
-          <ul>
-            <li>*Furniture vendors as needed</li>
-            <li>*Pursue potential partners from ISTE</li>
-          </ul>
+      <div class="row main-col align-items-center">
+        <div class="col-md white text-center">
+          <h3>-</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards three">
-        <div class="col-md text-right">
-          <h3><strong>Q3</strong> Consulting Services</h3>
-        </div>
+      <div class="row animation-static-right-container" id="kinderlab-kibo-robot-icon">
+        <div></div>
+      </div>
+      <div class="row main-col animation-static-right-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3>Wonder Workshop Robots</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>Kinderlab Kibo Robot</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>Paragon Furniture</h3>
         </div>
       </div>
     </div>
@@ -264,49 +246,28 @@
   <section class="full-height container padding-top padding-bottom" id="fourth-quarter-marker">
     <div class="row main-col">
       <div class="col-md text-center padding-bottom">
-        <h1>Fourth Quarter Plans</h1>
+        <h1><img src="public/images/teq-consulting-services-logo.svg" alt="Teq Consulting Services" /></h1>
       </div>
     </div>
-    <div class="row main-col">
+    <div class="row full-height">
     <div class="col-md">
-      <div class="row align-items-center quarter-cards four">
-        <div class="col-md text-right">
-          <h3><strong>Q4</strong> Online PD Features</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3>Effective Instructional <strong>Leadership and Supervision</strong></h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards four">
-        <div class="col-md text-right">
-          <h3><strong>Q4</strong> Online PD Courses</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3><strong>STEM</strong> Initiatives</h3>
         </div>
       </div>
-      <div class="row align-items-center quarter-cards four">
-        <div class="col-md text-right">
-          <h3><strong>Q4</strong> Products</h3>
-        </div>
+      <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row align-items-center quarter-cards four">
-        <div class="col-md text-right">
-          <h3><strong>Q4</strong> Consulting Services</h3>
-        </div>
-        <div class="col-md">
-          <ul>
-            <li></li>
-          </ul>
+          <h3>Network-Enabled <strong>Device Management</strong></h3>
+          <h6>Courses on Organization Design and Improvement Strategies</h6>
+          <h6>Network Survey for <strong>Smart Device Deployment</strong></h6>
+          <h6>Network Performance Analyzer</h6>
+          <h6>Network Environment <strong>Impact Statement</strong></h6>
         </div>
       </div>
     </div>

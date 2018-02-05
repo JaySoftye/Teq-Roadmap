@@ -295,7 +295,7 @@ div#legend, div#roadway img, div#roadwaycover img, div#mountain img, div#brushes
 }
 
 div#legend {
-  top: 10.5%;
+  top: 12.5%;
   left: 1.5%;
   z-index: 1090;
 }
@@ -496,46 +496,6 @@ div.row.quarter-cards.four {
 
 div.row.quarter-cards.four strong {
   color: rgb(77, 168, 182);
-}
-
-.animation-sky-container {
-  height: 300px;
-  width: 300px;
-  position: fixed;
-  top: 21%;
-  z-index: 2000 !important;
-}
-
-.animation-sky {
-  animation: fly 5s linear infinite;
-}
-
-@keyframes fly {
-	0% {
-		right: -300px;
-	}
-	100% {
-		right: 100%;
-	}
-}
-
-.animation-sky-container.animation-sky div {
-  height: inherit;
-  width: inherit;
-  background-image: url('../images/google-sso-animation-icon.svg');
-  background-size: auto 100%;
-  background-position: left top;
-  will-change: background-position;
-	animation-name: background-cycle;
-	animation-duration: 1s;
-	animation-timing-function: steps(10);
-	animation-iteration-count: infinite;
-}
-
-@keyframes background-cycle {
-	100% {
-		background-position: -3000px 0;
-	}
 }
 
 @media (min-width: 1440px) {

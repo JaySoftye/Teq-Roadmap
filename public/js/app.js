@@ -96,12 +96,38 @@ $(document).ready(function(){
     });
   });
 
+  var backgroundFly = $(".animation-sky-container").attr( "id" );
+  $("div.animation-sky-container div").css({'background-image' : 'url(../roadmap/public/images/' + backgroundFly + '.svg)'});
   $(window).on('scroll', function() {
     $(".animation-sky-marker").each(function() {
       if (isScrolledIntoView($(".animation-sky-marker"))) {
         $(".animation-sky-container").addClass("animation-sky");
       } else {
         $(".animation-sky-container").removeClass("animation-sky");
+      }
+    });
+  });
+
+  var backgroundWalkLeft = $(".animation-ground-left-container").attr( "id" );
+  $("div.animation-ground-left-container div").css({'background-image' : 'url(../roadmap/public/images/' + backgroundWalkLeft + '.svg)'});
+  $(window).on('scroll', function() {
+    $(".animation-ground-left-marker").each(function() {
+      if (isScrolledIntoView($(".animation-ground-left-marker"))) {
+        $(".animation-ground-left-container").addClass("animation-left");
+      } else {
+        $(".animation-ground-left-container").removeClass("animation-left");
+      }
+    });
+  });
+
+  var backgroundStaticRight = $(".animation-static-right-container").attr( "id" );
+  $("div.animation-static-right-container div").css({'background-image' : 'url(../roadmap/public/images/' + backgroundStaticRight + '.svg)'});
+  $(window).on('scroll', function() {
+    $(".animation-static-right-marker").each(function() {
+      if (isScrolledIntoView($(".animation-static-right-marker"))) {
+        $(".animation-static-right-container").addClass("animation-right");
+      } else {
+        $(".animation-static-right-container").removeClass("animation-right");
       }
     });
   });
