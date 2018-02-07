@@ -17,7 +17,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    
+
     <script src="public/js/app.js"></script>
   </head>
 
@@ -149,26 +149,28 @@
             </ul>
           </li>
           <li class="col-sm">
-            <h5><a class="subnav-link" href="../stem/">STEM</a></h5>
-            <ul>
-              <li><a href="../stem/robotics/" class="subnav-link">Robotics</a>
-                <ul>
-                  <li class="level2"><a href="../stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
-                  <li class="level2"><a href="../stem/robotis/" class="subnav-link">Robotis</a></li>
-                </ul>
-              </li>
-              <li><a href="../stem/3d-printers/" class="subnav-link">3D Printers</a>
-                <ul>
-                  <li class="level2"><a href="../stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
-                  <li class="level2"><a href="../stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
-                </ul>
-              </li>
-              <li><a href="../stem/labdisc/" class="subnav-link">Labdisc</a></li>
-              <li><a href="../stem/zspace/" class="subnav-link">zSpace</a></li>
-              <li><a href="../stem/stem-maker-station/" class="subnav-link">STEM Maker Station</a></li>
-              <li><a href="../stem/furniture/" class="subnav-link">Furniture</a></li>
-              <li><a href="../stem/stem-labs/" class="subnav-link">STEM Labs</a></li>
-            </ul>
+              <h5><a class="nav-link subnav-link" href="../stem/">STEM</a></h5>
+              <ul>
+                <li><a href="../stem/robotics/" class="subnav-link">Robotics</a>
+                  <ul>
+                    <li class="level2"><a href="../stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
+                    <li class="level2"><a href="../stem/robotis/" class="subnav-link">Robotis</a></li>
+                  </ul>
+                </li>
+                <li><a href="../stem/3d-printers/" class="subnav-link">3D Printers</a>
+                  <ul>
+                    <li class="level2"><a href="../stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
+                    <li class="level2"><a href="../stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
+                    <li class="level2"><a href="../stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
+                  </ul>
+                </li>
+                <li><a href="../stem/zspace/" class="subnav-link">zSpace</a></li>
+                <li><a href="../stem/labdisc/" class="subnav-link">Labdisc</a></li>
+                <li><a href="../stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
+                <li><a href="../stem/pi-top/" class="subnav-link">Pi-Top</a></li>
+                <li><a href="../stem/stem-mobile-carts/" class="subnav-link">STEM Mobile Carts</a></li>
+                <li><a href="../stem/furniture/" class="subnav-link">Furniture</a></li>
+              </ul>
           </li>
           <li class="col-sm">
             <h5><a class="subnav-link" href="../sight-and-sound/">Sight and Sound</a></h5>
