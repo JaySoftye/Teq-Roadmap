@@ -23,6 +23,57 @@
 
 <body>
 
+<!--
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('.modal.view').modal('show');
+  });
+</script>
+
+  <div class="modal view fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title">This page is best view at Full Screen</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+        <div class="modal-body">
+          <img src="public/images/screen-size-resolution.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+-->
+
+  <div class="modal fade" id="commentsModal" tabindex="-1" role="dialog" aria-labelledby="commentsModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Send us your comments.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you have any questions or comments on any of the courses, products, or services we offer please send us your thoughts using the form below.</p>
+        <!--[if lte IE 8]>
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+  <![endif]-->
+  <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+    portalId: '182596',
+    formId: '373eb659-2c8e-45e5-bada-86ef8c1c4e5c',
+
+  });
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
   <nav id="mainNav">
 
     <div class="mobileNav hide-large">
@@ -177,7 +228,6 @@
             <ul>
               <li><a href="../sight-and-sound/smart-boards/" class="subnav-link">SMART Boards</a>
                 <ul>
-                  <li class="level2"><a href="../sight-and-sound/smart-board-4000/">4000 Series</a></li>
                   <li class="level2"><a href="../sight-and-sound/smart-board-6000/">6000 Series</a></li>
                   <li class="level2"><a href="../sight-and-sound/smart-board-7000/">7000 Series</a></li>
                 </ul>
@@ -252,6 +302,7 @@
       <div class="container">
         <ul class="nav row">
           <li class="col-sm"><a class="nav-link subnav-link" href="../about-us/">About</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="../roadmap/">Roadmap</a></li>
           <li class="col-sm"><a class="nav-link subnav-link" href="../about-us/press-releases/">Press Releases</a></li>
           <li class="col-sm"><a class="nav-link subnav-link" href="../about-us/testimonials/">Testimonials</a></li>
           <li class="col-sm"><a class="nav-link subnav-link" href="../about-us/teq-careers/">Careers at Teq</a></li>

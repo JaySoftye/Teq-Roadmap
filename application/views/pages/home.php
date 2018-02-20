@@ -1,10 +1,16 @@
+<div id="main-body">
+
 <div id="legend">
+  <span><img src="public/images/coming-soon-in-2018-legend.svg" /></span>
   <ul>
     <li><a href="#first-quarter-marker" alt="Online PD Features"><span>Online PD Features</span></a></li>
     <li><a href="#second-quarter-marker" alt=""><span>Online PD Courses</span></a></li>
     <li><a href="#third-quarter-marker" alt="Product Updates"><span>Product Updates</span></a></li>
     <li><a href="#fourth-quarter-marker" alt="Consulting Services"><span>Consulting Services</span></a></li>
   </ul>
+</div>
+<div id="contact">
+  <button class="btn" type="button" data-toggle="modal" data-target="#commentsModal"><img src="public/images/leave-comment-email-comments.svg" /></button>
 </div>
 <div id="roadway">
   <img src="public/images/teq-roadmap-roadway.svg" />
@@ -24,76 +30,27 @@
 <div id="dashed-line">
   <img class="dashed-roadline" src="public/images/teq-roadmap-dashed-line.svg" />
 </div>
-<div class="quarter-section quarter-one">
-  <section>
-    <div class="row">
-      <div class="col-sm">
-        <p><img src="public/images/teq-roadmap-q1-icon.svg" /></p>
-      </div>
-      <div class="col-sm">
-        <div class="year-quarter first-quarter">
-          <h4><strong>New</strong></h4>
-          <h3>Online PD Features</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="quarter quarter-one">
+  <img src="public/images/teq-roadmap-markers-one.svg" />
 </div>
-<div class="quarter-section quarter-two">
-  <section>
-    <div class="row">
-      <div class="col-sm">
-        <p><img src="public/images/teq-roadmap-q2-icon.svg" /></p>
-      </div>
-      <div class="col-sm">
-        <div class="year-quarter second-quarter">
-          <h4><strong>New</strong></h4>
-          <h3>Online PD Courses</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="quarter quarter-two">
+  <img src="public/images/teq-roadmap-markers-two.svg" />
 </div>
-<div class="quarter-section quarter-three">
-  <section>
-    <div class="row">
-      <div class="col-sm">
-        <p><img src="public/images/teq-roadmap-q3-icon.svg" /></p>
-      </div>
-      <div class="col-sm">
-        <div class="year-quarter third-quarter">
-          <h4><strong>New</strong></h4>
-          <h3>Product Updates</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="quarter quarter-three">
+  <img src="public/images/teq-roadmap-markers-three.svg" />
 </div>
-<div class="quarter-section quarter-four">
-  <section>
-    <div class="row">
-      <div class="col-sm">
-        <p><img src="public/images/teq-roadmap-q4-icon.svg" /></p>
-      </div>
-      <div class="col-sm">
-        <div class="year-quarter fourth-quarter">
-          <h4><strong>New</strong></h4>
-          <h3>Consulting Services</h3>
-        </div>
-      </div>
-    </div>
-  </section>
+<div class="quarter quarter-four">
+  <img src="public/images/teq-roadmap-markers-four.svg" />
 </div>
 
 <main class="main-content">
 
   <section class="full-height container">
-    <div class="row main-col">
+    <div class="row main-col padding-bottom">
       <div class="col-md">
         <div class="white text-center">
           <h1><img src="public/images/teq-roadmap.svg" alt="Teq" /></h1>
-          <h2>Our Roadmap ahead...</h2>
-          <h6>Daily demands and unexpected challenges make it easy to feel like there is no direction. Below are the newest insights and innovations we plan to meet for our products and services over the next couple of months. Begin by scrolling down.</h6>
+          <h5>Teq is providing a glimpse of what we are planning for upcoming content, services, and product launches. We will refresh this “Teq Roadmap” on the first of every other month.</h5>
           <p><img src="public/images/teq-roadmap-scroll-down.svg" /></p>
           <p><img src="public/images/teq-roadmap-mr-sun.svg" /></p>
         </div>
@@ -101,9 +58,9 @@
     </div>
   </section>
 
-  <section class="full-height container padding-top padding-bottom" id="first-quarter-marker">
-    <div class="row main-col">
-      <div class="col-md text-center padding-bottom">
+  <section class="full-height container padding-top padding-bottom">
+    <div class="row main-col" id="first-quarter-marker">
+      <div class="col-md text-center">
         <h1><img src="public/images/opd_the_fusion_of_technology_and_learning.svg" alt="OnlinePD Features" /></h1>
       </div>
     </div>
@@ -134,16 +91,16 @@
       </div>
     </div>
     </div>
-    <div class="row main-col">
+    <div class="row main-col padding-bottom">
       <div class="col-md">
         <p><img src="public/images/teq-roadmap-mr-clouds.svg" /></p>
       </div>
     </div>
   </section>
 
-  <section class="full-height container padding-top padding-bottom" id="second-quarter-marker">
-    <div class="row main-col">
-      <div class="col-md text-center padding-bottom">
+  <section class="full-height container padding-top padding-bottom">
+    <div class="row main-col" id="second-quarter-marker">
+      <div class="col-md text-center">
         <h1><img src="public/images/opd_course_updates.svg" alt="OnlinePD Courses" /></h1>
       </div>
     </div>
@@ -183,16 +140,16 @@
       </div>
     </div>
     </div>
-    <div class="row main-col">
+    <div class="row main-col padding-bottom">
       <div class="col-md">
         <p><img src="public/images/teq-roadmap-mr-haze.svg" /></p>
       </div>
     </div>
   </section>
 
-  <section class="full-height container padding-top padding-bottom" id="third-quarter-marker">
-    <div class="row main-col">
-      <div class="col-md text-center padding-bottom">
+  <section class="full-height container padding-top padding-bottom">
+    <div class="row main-col" id="third-quarter-marker">
+      <div class="col-md text-center">
         <h1><img src="public/images/teq-product-updates.svg" alt="Teq Product Updates" /></h1>
       </div>
     </div>
@@ -209,11 +166,6 @@
       <div class="row main-col align-items-center quarter-cards three">
         <div class="col-md">
           <h3>Audio Enhancement <strong>XD Solo Speaker</strong></h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center">
-        <div class="col-md white text-center">
-          <h3>-</h3>
         </div>
       </div>
       <div class="row animation-static-right-container" id="kinderlab-kibo-robot-icon">
@@ -236,16 +188,16 @@
       </div>
     </div>
     </div>
-    <div class="row main-col">
+    <div class="row main-col padding-bottom">
       <div class="col-md">
         <p><img src="public/images/teq-roadmap-mr-hazey.svg" /></p>
       </div>
     </div>
   </section>
 
-  <section class="full-height container padding-top padding-bottom" id="fourth-quarter-marker">
-    <div class="row main-col">
-      <div class="col-md text-center padding-bottom">
+  <section class="full-height container padding-top padding-bottom">
+    <div class="row main-col" id="fourth-quarter-marker">
+      <div class="col-md text-center">
         <h1><img src="public/images/teq-consulting-services-logo.svg" alt="Teq Consulting Services" /></h1>
       </div>
     </div>
@@ -272,19 +224,21 @@
       </div>
     </div>
     </div>
-    <div class="row main-col">
+    <div class="row main-col padding-bottom">
       <div class="col-md">
         <p><img src="public/images/teq-roadmap-mr-stars.svg" /></p>
       </div>
     </div>
   </section>
 
-  <section class="full-height container padding-top padding-bottom">
+  <section class="full-height container padding-bottom">
     <div class="row">
-      <div class="col-md">
+      <div class="col-md padding-bottom">
         <p><img src="public/images/teq-roadmap-mr-moon.svg" /></p>
       </div>
     </div>
   </section>
 
 </main>
+
+</div>
