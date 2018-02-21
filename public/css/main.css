@@ -206,77 +206,22 @@ li.nav-item a.nav-link:focus {
   padding-bottom: 25px;
 }
 
-input.hs-input, textarea.hs-input, select.hs-input {
-  height: 30px !important;
-  border-radius: 0 !important;
+.hs-form label span {
+  color: white !important;
 }
 
-.modal-body .hs-form .hs-button {
-  width: 87% !important;
+.hs-form .hs-button {
+  width: 25% !important;
   height: 30px !important;
   background-image: none !important;
-  background-color: black !important;
-  border-radius: 0 !important;
-}
-
-footer {
-  position: relative;
-  z-index: 10;
-  padding: 3rem 0;
-  border-top: 4px solid #00b4e1;
-  background-color: rgba(30, 36, 40, 1);
-}
-
-footer h4, h6 {
-  margin-bottom: 1rem;
-}
-
-footer label {
-	position: absolute;
-	margin-left: -99999px;
-}
-
-footer ul.footerLinks, ul.footerLinks {
-  list-style: none;
-  padding-left: .8rem;
-  font-size: .8rem;
-}
-
-footer .hs-form.stacked .field {
-    margin-bottom: .1rem;
-}
-
-footer input[type='text'], footer input[type='email'], footer select.hs-input {
-  background-color: #4b5760;
-  height: 1.2rem;
-  border: none;
-  margin: 5px 0 10px 0;
-	padding: 7px;
-	font-size: 1.1em;
-	font-weight: 300;
-  color: #d2d4d4;
-}
-
-footer select.hs-input {
-  height: 2rem;
-}
-
-.hs-forms .actions {
-  margin-top: 0;
-}
-
-footer .hs-form .hs-button {
-  margin: -2rem 0rem;
-  outline: none;
-  background: #4b5760;
-  padding: 15px 35px;
-  -webkit-border-radius: 40px;
-  -moz-border-radius: 40px;
-  border-radius: 40px;
-  font-weight: 400;
-  color: #eceeef;
-  box-shadow: none;
-  border: none;
+  background-color: rgb(255, 255, 255) !important;
+  margin: 0 auto !important;
+  outline: 0 !important;
+  border-radius: 30px !important;
+  border: 0 !important;
+  font-size: 1rem !important;
+  text-shadow: none !important;
+  color: rgb(0, 180, 228) !important;
 }
 
 /*! BACKGROUND IMAGES */
@@ -292,7 +237,7 @@ main.main-content {
   background: linear-gradient(to bottom, #7fa8e0 0%,#00b4e4 33%,#ff8989 66%,#405575 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
-div#legend, div#contact, div#roadway, div#roadwaycover, div#mountain, div#brushes, div#dashed-line {
+div#legend, div#contact div.contact-form, div#roadway, div#roadwaycover, div#mountain, div#brushes, div#dashed-line {
   width: 100%;
   position: fixed;
   bottom: 0;
@@ -406,27 +351,39 @@ div#legend li:nth-child(4) a {
   background-color: rgb(77, 168, 182);
 }
 
-div#contact {
+div#contact div.contact-form {
+  width: 100px;
+  height: 100px;
+  padding: 0 0 !important;
+  background-color: rgba(0, 180, 228, 0.95);
   bottom: 5.5%;
-  left: 90.25%;
-  z-index: 1090;
+  right: 5%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  z-index: 2020;
 }
 
+div.contact-form div#form {
+  width: 0;
+  position: relative;
+  display: block;
+  margin: 2.5% auto 0 45%;
+  opacity: 0;
+  overflow: hidden;
+}
+
+
 div#contact button, div#contact button:active, div#contact button:focus, div#contact button svg {
-  width: 100px !important;
-  height: 100px !important;
+  width: 100px;
+  height: 100px;
   padding: 0 0 !important;
-  background-color: transparent !important;
+  background-color: transparent;
   border: 0 !important;
   outline: 0 !important;
   -webkit-box-shadow: none;
   box-shadow: none;
-}
-
-div#contact button #shadow {
-  -webkit-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
-  -moz-box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
-  box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.5);
+  cursor: pointer !important;
 }
 
 .container .row.main-col {
