@@ -50,9 +50,9 @@ $(document).ready(function(){
       </svg>
     </button>
     <h4 class="white">Send us your comments. If you have any questions or comments on any of the courses, products, or services we offer please send us your thoughts using the form below.</h4>
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
+    <!--[if lte IE 8]>
+    <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+    <![endif]-->
       <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
       <script>
         hbspt.forms.create({
@@ -123,17 +123,22 @@ $(document).ready(function(){
       </div>
       <div class="row animation-sky-marker main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3><strong>Google, Clever, and Classlink</strong> single sign-on option</h3>
+          <h3>Advanced Analytics</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3>Managing your own <strong>playlist</strong></h3>
+          <h3>3rd Party Videos</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3>Hiding categories</h3>
+          <h3>Hiding Categories</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards one">
+        <div class="col-md">
+          <h3>Managing your own playlists</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
@@ -160,34 +165,18 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>Effective Instructional <strong>Leadership and Supervision</strong></h3>
-          <h6>Leadership Practices</h6>
-          <h6>Organizational Improvement Strategies</h6>
-          <h6>Performance Improvement Strategies</h6>
-          <h6>College and Career Readiness</h6>
+          <h3>Potential SEL Content depending on DC bid</h3>
+          <h6>This would be 1 dedicated resource for 3 months</h6>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>Courses for <strong>Parents</strong></h3>
-          <h6>How to spot "fake news"</h6>
-          <h6>Warning your children against plagiarism</h6>
-          <h6>Monitoring social media</h6>
+          <h3>3D Printer Course 1</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3><strong>On-going Updates</strong> to All Certification Courses</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards two">
-        <div class="col-md">
-          <h3>English Language Learners(ELL/ESL)</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards two">
-        <div class="col-md">
-          <h3>Special Education</h3>
+          <h3>3D Printer Course 2</h3>
         </div>
       </div>
     </div>
@@ -207,35 +196,14 @@ $(document).ready(function(){
     </div>
     <div class="row full-height">
     <div class="col-md">
-      <div class="row animation-ground-left-container" id="audio-enhancement-qball">
-        <div></div>
-      </div>
       <div class="row main-col animation-ground-left-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Audio Enhancement <strong>Qball</strong></h3>
+          <h3>Smith System Furniture</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Audio Enhancement <strong>XD Solo Speaker</strong></h3>
-        </div>
-      </div>
-      <div class="row animation-static-right-container" id="kinderlab-kibo-robot-icon">
-        <div></div>
-      </div>
-      <div class="row main-col animation-static-right-marker align-items-center quarter-cards three">
-        <div class="col-md">
-          <h3>Wonder Workshop Robots</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards three">
-        <div class="col-md">
-          <h3>Kinderlab Kibo Robot</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards three">
-        <div class="col-md">
-          <h3>Paragon Furniture</h3>
+          <h3>Lifelique Augmented Reality (AR) and Virtual Reality (VR)</h3>
         </div>
       </div>
     </div>
@@ -257,21 +225,17 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <h3>Effective Instructional <strong>Leadership and Supervision</strong></h3>
+          <h3>Part II of Effective Instructional Leadership Videos</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <h3><strong>STEM</strong> Initiatives</h3>
+          <h3>Courses on Preparing Students for College and Career Readiness</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <h3>Network-Enabled <strong>Device Management</strong></h3>
-          <h6>Courses on Organization Design and Improvement Strategies</h6>
-          <h6>Network Survey for <strong>Smart Device Deployment</strong></h6>
-          <h6>Network Performance Analyzer</h6>
-          <h6>Network Environment <strong>Impact Statement</strong></h6>
+          <h3>Courses on District and School Performance Improvement Strategies</h3>
         </div>
       </div>
     </div>
