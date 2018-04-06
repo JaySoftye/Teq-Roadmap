@@ -171,12 +171,20 @@ $(document).ready(function(){
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>3D Printer Course 1</h3>
+          <h3>New 3D Printer Courses</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>3D Printer Course 2</h3>
+          <h3>Courses for <strong>Parents</strong></h3>
+          <h6>How to spot "fake news"</h6>
+          <h6>Warning your children against plagiarism</h6>
+          <h6>Monitoring social media</h6>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3><strong>On-going Updates</strong> to All Certification Courses</h3>
         </div>
       </div>
     </div>
@@ -198,7 +206,23 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col animation-ground-left-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Smith System Furniture</h3>
+          <h3>STEM Furniture</h3>
+          <h6>Smith System Furniture</h6>
+          <h6>Interior Concepts</h6>
+          <h6>Paragon Furniture</h6>
+        </div>
+      </div>
+      <div class="row animation-static-right-container" id="kinderlab-kibo-robot-icon">
+        <div></div>
+      </div>
+      <div class="row main-col animation-static-right-marker align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>Wonder Workshop Robots</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>Kinderlab Kibo Robot</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards three">
