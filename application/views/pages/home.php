@@ -165,8 +165,7 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>Potential SEL Content depending on DC bid</h3>
-          <h6>This would be 1 dedicated resource for 3 months</h6>
+          <h3>Potential SEL Content</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
