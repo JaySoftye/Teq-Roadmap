@@ -128,7 +128,7 @@ $(document).ready(function(){
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3>3rd Party Videos</h3>
+          <h3>School Controlled Content</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
