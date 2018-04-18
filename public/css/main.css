@@ -206,6 +206,15 @@ li.nav-item a.nav-link:focus {
   padding-bottom: 25px;
 }
 
+a#freeNavLink {
+  color: rgb(255, 118, 125) !important;
+  font-weight: 500 !important;
+}
+
+a#freeNavLink:hover, a#freeNavLink:active, a#freeNavLink:focus  {
+  color: #00b4e1 !important;
+}
+
 .hs-form label span {
   color: white !important;
 }

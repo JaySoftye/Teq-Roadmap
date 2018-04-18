@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
@@ -140,7 +140,7 @@
           </ul>
         </li>
         <li class="nav-item">
-          <h6><a class="white nav-link" data-toggle="collapse" href="#mobileFreeOffer" aria-expanded="false" aria-controls="mobileFreeOffer">FREE OFFER</a></h6>
+          <h6><a id="freeNavLink" class="white nav-link" data-toggle="collapse" href="#mobileFreeOffer" aria-expanded="false" aria-controls="mobileFreeOffer">FREE OFFER</a></h6>
           <ul class="footerLinks subnav collapse" id="mobileFreeOffer">
             <li><h2 class="white">Get started with your <span class="teqBlue">new classroom technology</span> today.</h2><p class="white">You’ll learn all the skills you need to start using your new products and software right away. Teq's Getting Started option gives you access to an entire library of <a href="http://www.teq.com/ctle-approved"><span class="teqBlue">State-approved PD content</span></a> as well as hours of complementary onsite PD.</p><p class="white bold">To see what PD courses are available for you, visit <a class="teqBlue bold" href="http://onlinepd.teq.com/gettingstarted/" onclick="trackOutboundLink('http://onlinepd.teq.com/gettingstarted/'); return false;">onlinepd.teq.com/gettingstarted</a>.</p></li>
           </ul>
@@ -175,7 +175,7 @@
           <a class="nav-link" href="#aboutMenu" data-toggle="collapse" aria-expanded="false" aria-controls="aboutMenu">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link bold" href="#freeOffer" data-toggle="collapse" aria-expanded="false" aria-controls="freeOffer" onclick="ga('send', 'event', 'FREE Link', 'Action label', 'Action Value');">FREE</a>
+          <a id="freeNavLink" class="nav-link bold" href="#freeOffer" data-toggle="collapse" aria-expanded="false" aria-controls="freeOffer" onclick="ga('send', 'event', 'FREE Link', 'Action label', 'Action Value');">FREE</a>
         </li>
       </ul>
     </div>
