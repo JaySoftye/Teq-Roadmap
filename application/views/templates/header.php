@@ -116,6 +116,7 @@
           <ul class="footerLinks subnav collapse" id="mobileMenuServices">
             <li><a href="../support-and-services/" class="white">Service and Bundles</a></li>
             <li><a href="../support-and-services/support-resources/" class="white">Projector Guides</a></li>
+            <li><a href="http://www.teq.com/consulting-services/nedm#ifp-faq" class="white">FAQ's</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -200,27 +201,34 @@
             </ul>
           </li>
           <li class="col-sm">
-              <h5><a class="nav-link subnav-link" href="../stem/">STEM</a></h5>
-              <ul>
-                <li><a href="../stem/robotics/" class="subnav-link">Robotics</a>
-                  <ul>
-                    <li class="level2"><a href="../stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
-                    <li class="level2"><a href="../stem/robotis/" class="subnav-link">Robotis</a></li>
+              <h5><a class="nav-link subnav-link" href="http://www.teq.com/stem/">STEM</a></h5>
+              <ul class="nav">
+                <li><a href="http://www.teq.com/stem/robotics/" class="subnav-link">Robotics</a>
+                  <ul class="nav">
+                    <li class="level2"><a href="http://www.teq.com/stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
+                    <li class="level2"><a href="http://www.teq.com/stem/robotis/" class="subnav-link">Robotis</a></li>
                   </ul>
                 </li>
-                <li><a href="../stem/3d-printers/" class="subnav-link">3D Printers</a>
-                  <ul>
-                    <li class="level2"><a href="../stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
-                    <li class="level2"><a href="../stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
-                    <li class="level2"><a href="../stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
+                <li><a href="http://www.teq.com/stem/3d-printers/" class="subnav-link">3D Printers</a>
+                  <ul class="nav">
+                    <li class="level2"><a href="http://www.teq.com/stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
+                    <li class="level2"><a href="http://www.teq.com/stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
+                    <li class="level2"><a href="http://www.teq.com/stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
                   </ul>
                 </li>
-                <li><a href="../stem/zspace/" class="subnav-link">zSpace</a></li>
-                <li><a href="../stem/labdisc/" class="subnav-link">Labdisc</a></li>
-                <li><a href="../stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
-                <li><a href="../stem/pi-top/" class="subnav-link">Pi-Top</a></li>
-                <li><a href="../stem/stem-mobile-carts/" class="subnav-link">STEM Mobile Carts</a></li>
-                <li><a href="../stem/furniture/" class="subnav-link">Furniture</a></li>
+                <li><a href="http://www.teq.com/stem/zspace/" class="subnav-link">zSpace</a></li>
+                <li><a href="http://www.teq.com/stem/labdisc/" class="subnav-link">Labdisc</a></li>
+                <li><a href="http://www.teq.com/stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
+                <li><a href="http://www.teq.com/stem/pi-top/" class="subnav-link">Pi-Top</a></li>
+                <li><a href="http://www.teq.com/stem/electronics-coding-bundle/" class="subnav-link">Coding Bundles</a></li>
+              </ul>
+          </li>
+          <li class="col-sm">
+              <h5><a class="nav-link subnav-link" href="http://www.teq.com/makerspaces/">Makerspaces</a></h5>
+              <ul class="nav">
+                <li><a href="http://www.teq.com/makerspaces/stem-labs/" class="subnav-link">Mobile STEM Labs</a></li>
+                <li><a href="http://www.teq.com/makerspaces/stem-maker-station/" class="subnav-link">STEM Maker Station</a></li>
+                <li><a href="http://www.teq.com/makerspaces/furniture/" class="subnav-link">Furniture</a></li>
               </ul>
           </li>
           <li class="col-sm">
@@ -282,6 +290,7 @@
           <li class="col-sm"><a class="nav-link subnav-link" href="../support-and-services/support-resources/">Product Guides</a></li>
           <li class="col-sm"><a class="nav-link subnav-link" href="../support-and-services/#contactSupportTeam">Contact Support</a></li>
           <li class="col-sm"><a class="nav-link subnav-link" href="../support-and-services/teqsquad/">Teq Squad</a></li>
+          <li class="col-sm"><a class="nav-link subnav-link" href="http://www.teq.com/consulting-services/nedm#ifp-faq" class="white">FAQ's</a></li>
           <li class="nav-item col-sm closeMenuCell"><a href="#supportMenu" data-toggle="collapse" aria-expanded="false" aria-controls="supportMenu"><img class="closeLogo" src="public/images/subnav-collapse-icon.svg" /></a></li>
         </ul>
       </div>
