@@ -220,7 +220,7 @@
                 <li><a href="http://www.teq.com/stem/zspace/" class="subnav-link">zSpace</a></li>
                 <li><a href="http://www.teq.com/stem/labdisc/" class="subnav-link">Labdisc</a></li>
                 <li><a href="http://www.teq.com/stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
-                <li><a href="http://www.teq.com/stem/pi-top/" class="subnav-link">Pi-Top</a></li>
+                <li><a href="http://www.teq.com/stem/pi-top/" class="subnav-link">pi-top</a></li>
                 <li><a href="http://www.teq.com/stem/electronics-coding-bundle/" class="subnav-link">Coding Bundles</a></li>
               </ul>
           </li>
