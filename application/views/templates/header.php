@@ -184,77 +184,18 @@
         <ul class="nav row">
           <li class="col-sm">
             <h5><a class="subnav-link" href="../pd-platforms">PD Platforms</a></h5>
-            <ul>
-              <li><a href="../pd-platforms/onsite-pd" class="subnav-link">Onsite PD</a></li>
-              <li><a href="../pd-platforms/online-pd" class="subnav-link">Online PD</a></li>
-              <li><a href="../pd-platforms/now-instructional-support/" class="subnav-link">nOw Instructional Support</a></li>
-              <li><a href="../pd-platforms/teq-essentials" class="subnav-link">Teq Essentials</a></li>
-              <li><a href="../pd-platforms/teacher-certifications/" class="subnav-link">Teq Digital Teacher Certifications</a></li>
-            </ul>
           </li>
           <li class="col-sm">
             <h5><a class="subnav-link" href="../instructional-software/">Instructional Software</a></h5>
-            <ul>
-              <li><a href="../instructional-software/smart-learning-suite" class="subnav-link">SMART Learning Suite</a></li>
-              <li><a href="../instructional-software/stemfuse/" class="subnav-link">STEM Fuse</a></li>
-              <li><a href="../pd-platforms/teq-essentials" class="subnav-link">Teq Essentials</a></li>
-            </ul>
           </li>
           <li class="col-sm">
               <h5><a class="nav-link subnav-link" href="http://www.teq.com/stem/">STEM</a></h5>
-              <ul class="nav">
-                <li><a href="http://www.teq.com/stem/robotics/" class="subnav-link">Robotics</a>
-                  <ul class="nav">
-                    <li class="level2"><a href="http://www.teq.com/stem/jumpstart-nao/" class="subnav-link">Jumpstart NAO</a></li>
-                    <li class="level2"><a href="http://www.teq.com/stem/robotis/" class="subnav-link">Robotis</a></li>
-                    <li class="level2"><a href="http://www.teq.com/stem/wonder-workshop/" class="subnav-link">Wonder Workshop</a></li>
-                  </ul>
-                </li>
-                <li><a href="http://www.teq.com/stem/3d-printers/" class="subnav-link">3D Printers</a>
-                  <ul class="nav">
-                    <li class="level2"><a href="http://www.teq.com/stem/ultimaker-3d-printer/" class="subnav-link">Ultimaker</a></li>
-                    <li class="level2"><a href="http://www.teq.com/stem/makerbot-3d-printer/" class="subnav-link">MakerBot</a></li>
-                    <li class="level2"><a href="http://www.teq.com/stem/3d-printer-labs/" class="subnav-link">3D Printer Labs</a></li>
-                  </ul>
-                </li>
-                <li><a href="http://www.teq.com/stem/zspace/" class="subnav-link">zSpace</a></li>
-                <li><a href="http://www.teq.com/stem/labdisc/" class="subnav-link">Labdisc</a></li>
-                <li><a href="http://www.teq.com/stem/sparkfun/" class="subnav-link">Sparkfun</a></li>
-                <li><a href="http://www.teq.com/stem/pi-top/" class="subnav-link">pi-top</a></li>
-                <li><a href="http://www.teq.com/stem/electronics-coding-bundle/" class="subnav-link">Coding Bundles</a></li>
-              </ul>
           </li>
           <li class="col-sm">
               <h5><a class="nav-link subnav-link" href="http://www.teq.com/makerspaces/">Makerspaces</a></h5>
-              <ul class="nav">
-                <li><a href="http://www.teq.com/makerspaces/stem-labs/" class="subnav-link">Mobile STEM Labs</a></li>
-                <li><a href="http://www.teq.com/makerspaces/stem-maker-station/" class="subnav-link">STEM Maker Station</a></li>
-                <li><a href="http://www.teq.com/makerspaces/furniture/" class="subnav-link">Furniture</a></li>
-              </ul>
           </li>
           <li class="col-sm">
             <h5><a class="subnav-link" href="../sight-and-sound/">Sight and Sound</a></h5>
-            <ul>
-              <li><a href="../sight-and-sound/smart-boards/" class="subnav-link">SMART Boards</a>
-                <ul>
-                  <li class="level2"><a href="../sight-and-sound/smart-board-6000/">6000 Series</a></li>
-                  <li class="level2"><a href="../sight-and-sound/smart-board-7000/">7000 Series</a></li>
-                </ul>
-              </li>
-              <li><a href="../sight-and-sound/audio-enhancement/" class="subnav-link">Audio Enhancement</a></li>
-              <li><a href="../sight-and-sound/safe-system/" class="subnav-link">SAFE System</a></li>
-              <li><a href="../sight-and-sound/wall-mounts-mobile-stands/" class="subnav-link">Wall Mounts/Mobile Stands</a></li>
-              <li><a href="../sight-and-sound/tech-tub/" class="subnav-link">Tech Tub</a></li>
-              <li><a href="../sight-and-sound/accessories/" class="subnav-link">Accessories</a></li>
-            </ul>
-          </li>
-          <li class="col-sm">
-            <h5 class="white"><a class="subnav-link" href="../sd-wan/">SD-WAN from Cloudgenix</a></h5>
-            <ul>
-              <li><a href="../sd-wan/cloudgenix-roi/" class="subnav-link">Return on Investment</a></li>
-              <li><a href="../sd-wan/cloudgenix-central-control-point/" class="subnav-link">Centralized Control Center</a></li>
-              <li><a href="../sd-wan/cloudgenix-software-assurance/" class="subnav-link">Software Assurance</a></li>
-            </ul>
           </li>
           <li class="nav-item closeMenuCell">
             <a href="#productsMenu" data-toggle="collapse" aria-expanded="false" aria-controls="productsMenu"><img class="closeLogo" src="public/images/subnav-collapse-icon.svg" /></a>
