@@ -128,22 +128,12 @@ $(document).ready(function(){
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3>School Controlled Content</h3>
+          <h3>Concurrent License Model</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards one">
         <div class="col-md">
-          <h3>Hiding Categories</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards one">
-        <div class="col-md">
-          <h3>Managing your own playlists</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards one">
-        <div class="col-md">
-          <h3>Adding custom categories</h3>
+          <h3>Education Resource Center Admin</h3>
         </div>
       </div>
     </div>
@@ -165,25 +155,45 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>Potential SEL Content</h3>
+          <h3>SLS Certification revamp (incorporate SLS Online)</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>New 3D Printer Courses</h3>
+          <h3>Google Educator Level 2 Certification Track</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3>Courses for <strong>Parents</strong></h3>
-          <h6>How to spot "fake news"</h6>
-          <h6>Warning your children against plagiarism</h6>
-          <h6>Monitoring social media</h6>
+          <h3>3D Printer 1-2 Courses</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards two">
         <div class="col-md">
-          <h3><strong>On-going Updates</strong> to All Certification Courses</h3>
+          <h3>Texas "Danielson" courses - T-TESS</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3><strong>Robotics</strong></h3>
+          <h6>Coding in Ardublock</h6>
+          <h6>Coding in C++
+          <h6>Ozobot
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3>Circuitry</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3>Tech Infused Learning (integrating technology into specific lessons) - Math for HS</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards two">
+        <div class="col-md">
+          <h3>SEL - Journaling</h3>
         </div>
       </div>
     </div>
@@ -203,30 +213,40 @@ $(document).ready(function(){
     </div>
     <div class="row full-height">
     <div class="col-md">
+      <div class="row animation-static-right-container" id="cubelets-group-robot-icon">
+        <div></div>
+      </div>
       <div class="row main-col animation-ground-left-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>STEM Furniture</h3>
-          <h6>Smith System Furniture</h6>
-          <h6>Interior Concepts</h6>
-          <h6>Paragon Furniture</h6>
+          <h3>Cubelets</h3>
         </div>
       </div>
-      <div class="row animation-static-right-container" id="kinderlab-kibo-robot-icon">
+      <div class="row animation-ground-left-container" id="sphero-robot-product-icon">
         <div></div>
       </div>
       <div class="row main-col animation-static-right-marker align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Wonder Workshop Robots</h3>
+          <h3>Sphero</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Kinderlab Kibo Robot</h3>
+          <h3>Ozobot</h3>
         </div>
       </div>
       <div class="row main-col align-items-center quarter-cards three">
         <div class="col-md">
-          <h3>Lifelique Augmented Reality (AR) and Virtual Reality (VR)</h3>
+          <h3>Little Bits</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>SAM Labs</h3>
+        </div>
+      </div>
+      <div class="row main-col align-items-center quarter-cards three">
+        <div class="col-md">
+          <h3>ClassVR</h3>
         </div>
       </div>
     </div>
@@ -248,17 +268,7 @@ $(document).ready(function(){
     <div class="col-md">
       <div class="row main-col align-items-center quarter-cards four">
         <div class="col-md">
-          <h3>Part II of Effective Instructional Leadership Videos</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards four">
-        <div class="col-md">
-          <h3>Courses on Preparing Students for College and Career Readiness</h3>
-        </div>
-      </div>
-      <div class="row main-col align-items-center quarter-cards four">
-        <div class="col-md">
-          <h3>Courses on District and School Performance Improvement Strategies</h3>
+          <h3>Further Advancements into Network-Enabled Device Management (NEDM) </h3>
         </div>
       </div>
     </div>
