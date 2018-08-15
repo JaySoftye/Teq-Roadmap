@@ -128,7 +128,6 @@ nav#mainNav {
   z-index: 2000;
   display: block;
   border-top: 4px solid #00b4e1;
-  background-color: rgba(30, 36, 40, .95);
 }
 
 nav#mainNav .container-fluid {
@@ -166,7 +165,7 @@ li.nav-item a.nav-link:focus {
 }
 
 .nav-item img.mainLogo {
-  height: 2.5rem;
+  height: 5.125rem;
   width: auto !important;
 }
 
@@ -257,7 +256,7 @@ div#legend, div#roadway img, div#roadwaycover img, div#mountain img, div#brushes
 }
 
 div#legend {
-  top: 7.75%;
+  top: 12.5%;
   left: 1.5%;
   z-index: 1090;
 }
